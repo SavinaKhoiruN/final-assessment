@@ -1,5 +1,3 @@
-function sum(a, b) {
-  return a + b; // menjumlahkan dua angka
+export default function sum(a, b) {
+  return a + b;
 }
-
-module.exports = sum; // supaya bisa dipakai di file test
