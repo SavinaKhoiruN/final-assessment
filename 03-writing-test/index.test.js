@@ -1,6 +1,6 @@
-import test from 'node:test';
-import assert from 'node:assert';
-import sum from './index.js';
+const test = require('node:test');
+const assert = require('node:assert');
+const sum = require('./index.js');
 
 // Test 1: penjumlahan angka positif
 test('should return correct result for positive numbers', () => {
